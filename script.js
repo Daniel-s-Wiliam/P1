@@ -4,7 +4,7 @@
     hour = minute * 60,
     day = hour * 24;
   // Place date below this line
-  let dateToCount = "Nov 12, 2020 15:44:56",
+  let dateToCount = "Nov 12, 2021 15:44:56",
     countDown = new Date(dateToCount).getTime(),
     x = setInterval(function () {
       let now = new Date().getTime(),
